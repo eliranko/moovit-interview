@@ -1,0 +1,13 @@
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.csprojAssemblyReference.cache
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.csproj.CoreCompileInputs.cache
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.AssemblyInfoInputs.cache
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.AssemblyInfo.cs
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.exe
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.deps.json
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.runtimeconfig.json
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.runtimeconfig.dev.json
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.dll
+C:\Users\elira\Desktop\moovit-interview\bin\Debug\netcoreapp3.1\moovit-interview.pdb
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.dll
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.pdb
+C:\Users\elira\Desktop\moovit-interview\obj\Debug\netcoreapp3.1\moovit-interview.genruntimeconfig.cache
