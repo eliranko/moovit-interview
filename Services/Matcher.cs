@@ -158,6 +158,8 @@ namespace moovit_interview
                     continue;
                 }
 
+                var now = DateTime.Now;
+
                 // If there're no trips heading to the stop following this trip's stop, that means this trip
                 // is still heading to its current stop
                 //
@@ -165,7 +167,6 @@ namespace moovit_interview
                 if (tripStopIndex != allAvailableStops.Count - 1 &&
                  !TripExistsHeadingToStop(eta, tripStopIndex + 1, _stopsIntervalByLineDictionary[line][allAvailableStops[tripStopIndex + 1].ToStopId]))
                 {
-                    var now = DateTime.Now;
                     // Subtract expected seconds to reach station
                     tripCopy.ExpectedSecondsToArriveAtNextStop -= now.Subtract(trip.LastSampling).Seconds;
                     tripCopy.LastSampling = now;
@@ -193,7 +194,9 @@ namespace moovit_interview
                     continue;
                 }
 
-                // the trip will not be advanced
+                // the trip will not be advanced, update its expected seconds
+                tripCopy.ExpectedSecondsToArriveAtNextStop -= now.Subtract(trip.LastSampling).Seconds;
+                tripCopy.LastSampling = now;
                 updatedTrips.Add(tripCopy);
             }
 
